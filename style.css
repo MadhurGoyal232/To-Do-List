@@ -1,35 +1,32 @@
-body{
+body {
     height: 100vh;
-    background: linear-gradient(
-        
-    #FFD35C 0%,
-    #FFD35C 50%,
-    #5B92FD 50%,
-    #5B92FD 100%
-    );
+    background: linear-gradient(#FFD35C 0%,
+            #FFD35C 50%,
+            #5B92FD 50%,
+            #5B92FD 100%);
 }
 
-#container{
+#container {
 
-    min-height : 30vh;
-    width : 42vh;
+    min-height: 30vh;
+    width: 42vh;
     background-color: #f1f3f5;
     position: absolute;
-    left : 19px;
+    left: 19px;
     border-radius: 15px;
-    top : 25px;
+    top: 25px;
     /* min-width: 400px; */
     padding-bottom: 50px;
 }
 
-#textbox{
+#textbox {
 
     height: 30px;
     /* border-bottom : 2px solid red; */
     text-decoration: none;
-    position : relative;
-    top:14px;
-    left : 18px;
+    position: relative;
+    top: 14px;
+    left: 18px;
 
 
 
@@ -38,87 +35,89 @@ body{
 input[type="text"]:focus {
     border: none;
     outline: none;
-    border-bottom : 1px solid blue;
+    border-bottom: 1px solid blue;
     touch-action: manipulation;
-    
+
 }
 
-#btn{
+#btn {
 
-    height:40px;
-    width:110px;
-    position:relative;
+    height: 40px;
+    width: 110px;
+    position: relative;
     left: 30px;
-    color:white;
+    color: white;
     background-color: #5B92FD;
     border-radius: 8px;
-    top : 11px;
+    top: 11px;
 }
 
-#te{
+#te {
 
-position : relative;
-top : 35px;
-left : 20px
-    
+    position: relative;
+    top: 35px;
+    left: 20px
 }
 
-.elem{
+.elem {
 
-    min-height : 5vh;
-    width : 70vw;
-    background-color:white;
-    position : relative;
-    top : 40px;
-    left : 30px;
-    display : flex;
-    justify-content:space-around;
+    min-height: 5vh;
+    width: 70vw;
+    background-color: white;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    display: flex;
+    justify-content: space-around;
     border-radius: 5px;
-    padding-top : 6px;
-    margin : 5px;
+    padding-top: 6px;
     padding-bottom: 10px;
-
-
+    display: flex;
+    align-items: center; 
 }
 
-#texting{
-    position : relative;
 
-    width : 85px;
-    min-height : 40px;
+#texting {
+    position: relative;
+
+    width: 85px;
+    min-height: 40px;
     text-wrap: wrap;
     top: 10px;
 }
 
-.icn1{
+.icn1 {
 
-padding : 7px;
-height: 20px;
-width : 23px;
-background-color: #5B92FD;
+    padding: 7px;
+    height: 20px;
+    width: 23px;
+    background-color: #5B92FD;
 }
 
-.icn2{
-padding : 7px;
-height: 20px;
-width : 23px;
-background-color: red;
+.icn2 {
+    padding: 7px;
+    height: 20px;
+    width: 23px;
+    background-color: red;
 
 }
-#test{
 
-    padding : 2px;
-    cursor:pointer;
+#test {
+
+    padding: 2px;
+    cursor: pointer;
 }
-#test2{
+
+#test2 {
 
     /* padding-left  : px; */
-    cursor:pointer;
+    cursor: pointer;
 
 }
 
-#inputb{
+#inputb {
 
-    position :relative;
-    margin-left: 6px;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
